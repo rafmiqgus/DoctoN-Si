@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #06070D;
+}
+
+.App {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 53.5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #151A1F;
+  z-index: 10;
+}
+
+.navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  color: #00E59B;
+  text-decoration: none;
+}
+
+.navbar__items--right {
+  margin-left: auto;
+}
+
+.github {
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  color: rgb(117, 121, 255);
+}
+
+.navbar__toggle {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.navbar__title {
+  font-weight: bolder;
+  color: transparent;
+  background: linear-gradient(121deg, rgb(0, 242, 255), rgb(0, 255, 138));
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: none;
+}
+
+.navbar__link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  font-weight: bold;
+}
+
+.navbarSearchContainer_Bca1 {
+  position: relative;
+}
+
+.DocSearch-Button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.DocSearch-Search-Icon {
+  fill: #fff;
+}
+
+.DocSearch-Button-Placeholder {
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
+
+.no-style {
+  background: transparent;
+}
+
+.blured- {
+  filter: blur(20px);
+}
+
+
+
+
+
+

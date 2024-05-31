@@ -1,0 +1,27 @@
+.quick-access {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.quick-access ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-access ul li {
+    margin-bottom: 10px;
+}
+
+.quick-access ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.quick-access ul li a:hover {
+    color: #666;
+}

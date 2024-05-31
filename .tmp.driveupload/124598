@@ -1,0 +1,42 @@
+v1 du site
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   src/pages/Acceuil.jsx
+#
+# Changes not staged for commit:
+#	modified:   README.md
+#	modified:   package-lock.json
+#	modified:   package.json
+#	deleted:    src/App.css
+#	deleted:    src/App.js
+#	deleted:    src/App.test.js
+#	modified:   src/index.css
+#	deleted:    src/index.js
+#	deleted:    src/logo.svg
+#	modified:   src/pages/Acceuil.jsx
+#	deleted:    src/reportWebVitals.js
+#	deleted:    src/setupTests.js
+#
+# Untracked files:
+#	.idea/
+#	.tmp.driveupload/
+#	postcss.config.js
+#	src/components/
+#	src/img/
+#	src/index.jsx
+#	src/pages/Algorithmes.jsx
+#	src/pages/App.jsx
+#	src/pages/Binaire.jsx
+#	src/pages/JavaScript.jsx
+#	src/pages/Python.jsx
+#	src/pages/navbar.jsx
+#	src/reportWebVitals.jsx
+#	src/setupTests.jsx
+#	src/styles/
+#	tailwind.config.js
+#
