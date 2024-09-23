@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DoctoN-Si/static/css/main.e617d394.css",
+    "main.js": "/DoctoN-Si/static/js/main.5c0f8cbe.js",
+    "static/media/logo_bannière.jpg": "/DoctoN-Si/static/media/logo_bannière.13d08af2900505237f9b.jpg",
+    "static/media/hexa_exp.png": "/DoctoN-Si/static/media/hexa_exp.e90b3943c3197d24dadb.png",
+    "static/media/logo.svg": "/DoctoN-Si/static/media/logo.a9ff38010cf64c009fb8d958f89130a5.svg",
+    "static/media/dots.svg": "/DoctoN-Si/static/media/dots.e0528ca12c0fafd503b3bdfd2ee39c1a.svg",
+    "index.html": "/DoctoN-Si/index.html",
+    "main.e617d394.css.map": "/DoctoN-Si/static/css/main.e617d394.css.map",
+    "main.5c0f8cbe.js.map": "/DoctoN-Si/static/js/main.5c0f8cbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e617d394.css",
+    "static/js/main.5c0f8cbe.js"
+  ]
+}
