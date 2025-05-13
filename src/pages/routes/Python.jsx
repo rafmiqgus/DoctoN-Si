@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "../../styles/Page.module.css"; 
-import dots from "../../img/dots.svg";
+import dots from "../../assets/img/dots.svg";
 
 function Python() {
   const [isHovered, setIsHovered] = useState(false);
@@ -29,7 +29,9 @@ function Python() {
           }`}
         >
           <div
-            className={`${styles.hoverArea} ${isHovered ? styles.noStyle : ""}`}
+            className={`${styles.hoverArea} ${
+              isHovered ? styles.noStyle : ""
+            }`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >

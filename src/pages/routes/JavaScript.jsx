@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from '../../styles/Page.module.css';
-import dots from "../../img/dots.svg";
+import dots from "../../assets/img/dots.svg";
 
 function JavaScript() {
   const [isHovered, setIsHovered] = useState(false);
@@ -22,78 +22,81 @@ function JavaScript() {
 
   return (
     <>
-      <div className={styles.Sommaire}>
+      <div className={styles.sommaire}>
         <div
-          className={`${styles.hoverArea} ${
+          className={`${styles.hoverAreaContainer} ${
             isHovered ? styles.noStyle : ""
           }`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         >
           <div
-            className={`${styles.dots} ${
-              isHovered ? styles.displayNone : ""
-            }`}
+            className={`${styles.hoverArea} ${isHovered ? styles.noStyle : ""}`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
           >
-            <embed
-              src={dots}
-              id="Dots-svg"
-              width="20px"
-              height="55px"
-              fill="white"
-            />
-          </div>
-          {isHovered && (
-            <div className={styles.hoverBarContainer}>
-              <div className={styles.hoverBar}>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("variables")}
-                >
-                  Les variables
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("listes")}
-                >
-                  Le binaire
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("objets")}
-                >
-                  Conversion décimal → binaire
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("section4")}
-                >
-                  Conversion binaire → décimal
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("section5")}
-                >
-                  Hexadécimal
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("section6")}
-                >
-                  Conversion entre Hexadécimal et Binaire
-                </button>
-                <button
-                  className={styles.barButton}
-                  onClick={() => scrollToSection("section7")}
-                ></button>
-              </div>
+            <div
+              className={`${styles.dots} ${
+                isHovered ? styles.displayNone : ""
+              }`}
+            >
+              <embed
+                src={dots}
+                id="dots-svg"
+                className={styles.dots}
+                width="20px"
+                height="55px"
+                fill="white"
+              />
             </div>
-          )}
+            {isHovered && (
+              <div className={styles.hoverBarContainer}>
+                <div className={styles.hoverBar}>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("variables")}
+                  >
+                    Les variables
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("listes")}
+                  >
+                    Le binaire
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("objets")}
+                  >
+                    Conversion décimal → binaire
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("section4")}
+                  >
+                    Conversion binaire → décimal
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("section5")}
+                  >
+                    Hexadécimal
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("section6")}
+                  >
+                    Conversion entre Hexadécimal et Binaire
+                  </button>
+                  <button
+                    className={styles.barButton}
+                    onClick={() => scrollToSection("section7")}
+                  ></button>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
-      <div
-        className={`${styles.Block} ${isHovered ? styles.blurred : ""}`}
-      >
+      <div className={`${styles.Block} ${isHovered ? styles.blurred : ""}`}>
         <h1 className={styles.h1}>JavaScript</h1>
         <div id="variables" className={styles.section}></div>
         <h3 className={styles.h3}>Les variables</h3>

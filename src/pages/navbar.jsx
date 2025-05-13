@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
-import Logo from "../img/logo.svg";
+import Logo from "../assets/img/logo.svg";
 import { AiFillGithub } from "react-icons/ai";
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import Logobanner from "../img/logo_bannière.jpg";
+import Logobanner from "../assets/img/logo_bannière.jpg";
 import styles from "../styles/Acceuil.module.css"
 
 const Acceuil = () => {
