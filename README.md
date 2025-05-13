@@ -1,70 +1,113 @@
-![](./src/Assets/Logo_100x100.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](https://github.com/rafmiqgus/DoctoN-Si/blob/master/src/img/logo_bannière.jpg)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Docto N'SI
 
-### `npm start`
+Un site web visant à aider les élèves de première en spé NSI en proposant des fiches mémo sur les languages Python et Javascript, les différents base avec leur conversion et les différents algorithmes vu au court de l'année. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation et modification en local
 
-### `npm test`
+### Prérequis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Avant de commencer, assurez-vous que les logiciels suivants sont installés sur votre machine :
 
-### `npm run build`
+- **Git** : nécessaire pour cloner le dépôt. Téléchargez-le ici : [Documentation Git](https://github.com/git-guides/install-git).
+- **Node.js et npm** : Node.js est requis pour exécuter le projet React, et npm est le gestionnaire de paquets associé. Téléchargez-les ici : [Node.js](https://nodejs.org/en/download/prebuilt-installer).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cloner le dépôt
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ouvrez un terminal powershell et exécutez la commande suivante pour cloner le projet :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/rafmiqgus/DoctoN-Si.git
+```
+### Étapes d'Installation
 
-### `npm run eject`
+#### 1. Ouvrir un Terminal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Sur Windows** : ouvre **Windows PowerShell** avec en cherchant "powershell" dans la fonction recherche.
+- **Sur macOS** : ouvre **Terminal** via Spotlight (`Cmd + Espace`, puis tape "Terminal").
+- **Sur Linux** : ouvre ton terminal favori.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 2. Choisir le Dossier de Destination
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dans le terminal, navigue vers le dossier où tu souhaites installer le projet. Par exemple, pour aller dans ton dossier Documents :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```Bash
+cd ~/Documents
+```
 
-## Learn More
+#### 3. Coner le dépôt
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Exécute la commande suivante pour cloner le projet sur ton ordinateur :
+```Bash
+git clone https://github.com/rafmiqgus/DoctoN-Si.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 4. Accéder au Dossier du projet 
 
-### Code Splitting
+Entre dans le dossier du projet:
+```Bash
+cd DoctoN-Si
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 5. Installer les dépendances
 
-### Analyzing the Bundle Size
+Installe les modules nécessaires avec npm :
+```Bash
+npm install
+```
+### Lancer l'application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pour démarrer le site en mode développement :
+```Bash
+npm start
+```
 
-### Making a Progressive Web App
+Ton navigateur devrait s'ouvrir automatiquement à l'adresse http://localhost:3000. Si ce n'est pas le cas, ouvre ton navigateur et va à cette adresse.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Arrêter l'application
 
-### Advanced Configuration
+Pour arrêter le site, retourne dans le terminal où il est en cours d'exécution et appuie sur `Ctrl + C`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Commandes utiles
 
-### Deployment
+- **Construire le projet pour la production** (si tu veux créer une version optimisée du site):
+```Bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Exécuter les test** (s'il y en a dans setupTests.jsx):
+```Bash
+npm test
+```
 
-### `npm run build` fails to minify
+- **Arrêter un processus npm en cours** (si `Ctrl + C` ne fonctionne pas):
+```Bash
+npm stop
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Pérsonnalisation
+
+Tu peux maintenant modifier le code source du projet comme tu le souhaites. Si le serveur de développement est en cours d'exécution (`npm start`), les modifications seront automatiquement mises à jour dans ton navigateur.
+
+
+
+
+## Contribuer
+
+Si tu maîtrises **React**, **HTML**, **CSS**, **Tailwind CSS** et que tu sais utiliser **Git**, tu peux nous aider à améliorer **Docto N'SI** ! N'hésite pas à cloner le dépôt, apporter tes modifications et soumettre une Pull Request. Toute contribution est la bienvenue et grandement appréciée ! 🚀
+
+### Bonnes pratiques
+
+Si tu veux contribuer au code source, pense à respecter quelques règles.
+- **Respecte le style du code** : Assure-toi que ton code est propre et bien commenté.
+- **Teste tes modifications** : Vérifie que tout fonctionne correctement avant de faire une Pull Request.
+- **Sois clair et précis** dans tes messages de commit et descriptions de Pull Request.
+## Auteurs
+
+- [@rafmiqgus](https://www.github.com/rafmiqgus)
+- [@manon5555](https://www.github.com/manon5555)
+
