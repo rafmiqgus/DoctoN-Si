@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/rafmiqgus/DoctoN-Si/blob/master/src/img/logo_bannière.jpg)
+![Logo](https://github.com/rafmiqgus/DoctoN-Si/blob/master/assets/src/img/logo_bannière.jpg)
 
 
 # Docto N'SI
